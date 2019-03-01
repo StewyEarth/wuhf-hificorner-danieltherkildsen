@@ -30,6 +30,10 @@
     {
         "id": 97,
         "navn": "Pladespillere"
+    },
+    {
+        "id": 800,
+        "navn": "Mikrofoner"
     }
 
 ]
