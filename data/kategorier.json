@@ -1,0 +1,35 @@
+[
+    {
+        "id": 2352,
+        "navn": "CD Afspillere"
+    },
+    {
+        "id": 842,
+        "navn": "DVD Afspillere"
+    },
+    {
+        "id": 581,
+        "navn": "Forstærkere"
+    },
+    {
+        "id": 724,
+        "navn": "Effekt Forstærkere"
+    },
+    {
+        "id": 85,
+        "navn": "Interne Forstærkere"
+    },
+    {
+        "id": 32,
+        "navn": "Rør Forstærkere"
+    },
+    {
+        "id": 15,
+        "navn": "Højtalere"
+    },
+    {
+        "id": 97,
+        "navn": "Pladespillere"
+    }
+
+]
