@@ -211,3 +211,45 @@ body{
 .heroslider i:last-of-type{
     right: 2%;
 }
+
+
+.socialboxFB{
+    background: url(../img/frontpage/social-1.jpg) 
+}
+.socialboxBlogger{
+    background: url(../img/frontpage/social-2.jpg)
+}
+.socialboxTwitter{
+    background: url(../img/frontpage/social-3.jpg)
+}
+
+.socialbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.socialicon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 7rem;
+}
+@media(min-width:600px){
+    .socialboxes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+
+    }
+    .socialbox{
+        min-height: 300px;
+
+    }
+}
