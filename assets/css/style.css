@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #111111;
 }
 
 .link, .link--active, .link--white {
@@ -259,6 +260,33 @@ body {
 
   .socialbox {
     min-height: 300px;
+  }
+}
+.textbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textbox__title {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #a39161;
+  border: 2px solid #a39161;
+  padding: 0.2em 0.5em;
+}
+
+@media (min-width: 600px) {
+  .textboxes {
+    margin: 2em;
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
