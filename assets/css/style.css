@@ -99,15 +99,6 @@ body {
     display: block;
   }
 }
-.showroombanner {
-  width: 100%;
-}
-.showroombanner img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
 
 .heroslider {
   position: relative;
