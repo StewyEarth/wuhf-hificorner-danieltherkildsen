@@ -276,7 +276,6 @@ body {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .textbox__title {
   text-decoration: none;
   font-size: 1.4rem;
@@ -291,6 +290,76 @@ body {
     display: grid;
     grid-column-gap: 1em;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+footer {
+  background-color: #A39161;
+  padding: 0.8em 1.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+footer .contactdetails {
+  padding: 0;
+  font-size: 0.6em;
+  font-style: normal;
+  list-style-type: none;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer div:last-of-type {
+  justify-content: flex-end;
+}
+footer .returnandprivacy {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  color: #ffffff;
+  margin: 0;
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .returnandprivacy p {
+  margin: 0 0.5em;
+}
+footer .returnandprivacy a {
+  color: #ffffff;
+}
+footer .paymentmethods {
+  display: none;
+}
+footer .footer__sociallist {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+footer .footer__social a {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+@media (min-width: 650px) {
+  footer .paymentmethods {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin-right: 1em;
+  }
+  footer .returnandprivacy {
+    margin-left: 1em;
   }
 }
 
