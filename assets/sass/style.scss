@@ -267,13 +267,13 @@ body{
     margin: 1em;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-}
-.textbox__title{
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: #a39161;
-    border: 2px solid #a39161;
-    padding: .2em .5em;
+    &__title{
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: #a39161;
+        border: 2px solid #a39161;
+        padding: .2em .5em;
+    }
 }
 
 @media(min-width:600px){
@@ -283,4 +283,77 @@ body{
         grid-column-gap: 1em;
         grid-template-columns: repeat(3,1fr);
     }
+}
+
+footer{
+    background-color: #A39161;
+    padding: .8em 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .contactdetails{
+        padding: 0;
+        font-size: .6em;
+        font-style: normal;
+        list-style-type: none;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div:last-of-type{
+        justify-content: flex-end;
+    }
+    .returnandprivacy{
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        color: #ffffff;
+        margin: 0;
+        font-size: .9em;
+        font-family: Arial, Helvetica, sans-serif;
+        p{
+            margin: 0 .5em;
+        }
+        a{
+            color: #ffffff;
+        }
+    }
+    .paymentmethods{
+        display: none;
+    }
+    .footer__sociallist{
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+    }
+    .footer__social a{
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .8em;
+        text-decoration: none;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+    }
+}
+@media(min-width:650px){
+    footer{
+        .paymentmethods{
+            display: flex;
+            width: 70%;
+            height: 70%;
+            margin-right: 1em;
+        }
+        .returnandprivacy{
+            margin-left: 1em;
+        }
+    }
+
 }
