@@ -11,6 +11,10 @@ body {
   color: #ffffff;
 }
 
+.link--white:hover {
+  color: #a39161;
+}
+
 .link--active {
   color: #a39161;
 }

@@ -9,6 +9,9 @@ body{
     @extend .link;
     color: #ffffff;
 }
+.link--white:hover{
+    color: #a39161;
+}
 .link--active{
     @extend .link;
     color: #a39161;
