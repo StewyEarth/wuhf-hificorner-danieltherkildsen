@@ -1,0 +1,40 @@
+.brandsbanner{
+    padding: 1em;
+    background: url(../img/brands/banner-speaker.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    min-height: 150px;
+    max-height: 300px;
+    h1{
+        font-family: Arial, Helvetica, sans-serif; 
+        margin: 0;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 1.5rem;
+        align-self: flex-end;
+        padding: .5em;
+        background-color: rgba(0, 0, 0, .7);
+    }
+    img{
+        width: 20%;
+        align-self: flex-start;
+    }
+}
+@media(min-width:650px){
+    .brandsbanner{
+        padding: 3em;
+        max-height: initial;
+        height: 30vh;
+        h1{
+            font-size: 1.5rem;
+            align-self: center;
+            background-color: transparent;
+        }
+        img{
+            width: 12%;
+            align-self: flex-start;
+        }
+    }
+}
