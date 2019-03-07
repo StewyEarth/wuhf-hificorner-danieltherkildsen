@@ -1,37 +1,298 @@
 [
     {
         "id": 15,
-        "navn": "Creek Classic",
-        "pris": 804,
-        "billede": "assets/img/produktbilleder/dvdafspillere/creek_classic.jpg",
-        "kategoriID": 842
+        "name": "Creek Classic",
+        "price": 804,
+        "picture": "assets/img/produktbilleder/dvdafspillere/creek_classic.jpg",
+        "categoryID": 842,
+        "stock": 5
+    },
+    {
+        "id": 18,
+        "name": "Exposure 2010S",
+        "price": 804,
+        "picture": "assets/img/produktbilleder/dvdafspillere/exposure_2010S.jpg",
+        "categoryID": 842,
+        "stock": 5
+    },
+    {
+        "id": 188,
+        "name": "Parasound D200",
+        "price": 804,
+        "picture": "assets/img/produktbilleder/dvdafspillere/parasound_d200.jpg",
+        "categoryID": 842,
+        "stock": 5
+    },
+    {
+        "id": 187,
+        "name": "Parasound Halod3",
+        "price": 804,
+        "picture": "assets/img/produktbilleder/dvdafspillere/parasound_halod3.jpg",
+        "categoryID": 842,
+        "stock": 5
     },
     {
         "id": 200,
-        "navn": "Creek Destiny CD",
-        "pris": 520,
-        "billede": "assets/img/produktbilleder/cd_afspillere/creek_Destiny_CD.jpg",
-        "kategoriID": 2352
+        "name": "Creek Destiny CD",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/cd_afspillere/creek_Destiny_CD.jpg",
+        "categoryID": 2352,
+        "stock": 0
     },
     {
         "id": 325,
-        "navn": "Creek Evo CD",
-        "pris": 520,
-        "billede": "assets/img/produktbilleder/cd_afspillere/creek_evo_cd.jpg",
-        "kategoriID": 2352
+        "name": "Creek Evo CD",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/cd_afspillere/creek_evo_cd.jpg",
+        "categoryID": 2352,
+        "stock": 2
     },
     {
         "id": 52,
-        "navn": "Creek Classic CD",
-        "pris": 520,
-        "billede": "assets/img/produktbilleder/cd_afspillere/creek_classic_cd.jpg",
-        "kategoriID": 2352
+        "name": "Creek Classic CD",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/cd_afspillere/creek_classic_cd.jpg",
+        "categoryID": 2352,
+        "stock": 7
     },
     {
         "id": 111,
-        "navn": "Exp 2010S CD",
-        "pris": 520,
-        "billede": "assets/img/produktbilleder/cd_afspillere/Exp_2010S_CD.gif",
-        "kategoriID": 2352
+        "name": "Exp 2010S CD",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/cd_afspillere/Exp_2010S_CD.gif",
+        "categoryID": 2352,
+        "stock": 9
+    },
+    {
+        "id": 1,
+        "name": "Manley Mahi",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/effektforstaerkere/manley_mahi.jpg",
+        "categoryID": 724,
+        "stock": 9
+    },
+    {
+        "id": 3,
+        "name": "Manley Snapper",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/effektforstaerkere/manley_snapper.jpg",
+        "categoryID": 724,
+        "stock": 9
+    },
+    {
+        "id": 4,
+        "name": "Parasound Halo a23",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
+        "categoryID": 724,
+        "stock": 9
+    },
+    {
+        "id": 2,
+        "name": "Manley Neoclassic 300B",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg",
+        "categoryID": 724,
+        "stock": 9
+    },
+    {
+        "id": 5,
+        "name": "Creek OBH 22 Passive Preamp",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
+        "categoryID": 666,
+        "stock": 9
+    },
+    {
+        "id": 6,
+        "name": "Parasound Classic 7100",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/forforstaerkere/parasound_classic7100.jpg",
+        "categoryID": 666,
+        "stock": 9
+    },
+    {
+        "id": 7,
+        "name": "parasound halo p3",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/forforstaerkere/parasound_halop3.jpg",
+        "categoryID": 666,
+        "stock": 9
+    },
+    {
+        "id": 8,
+        "name": "Project Prebox",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/forforstaerkere/Project_prebox.jpg",
+        "categoryID": 666,
+        "stock": 9
+    },
+    {
+        "id": 9,
+        "name": "Boesendorfer VCS Wall",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/boesendorfer_vcs_wall.gif",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 10,
+        "name": "Epos M5",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 11,
+        "name": "Epos M5",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 12,
+        "name": "Harbeth hl7es2",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/harbeth_hl7es2.jpg",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 13,
+        "name": "Harbeth Monitor30",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/harbeth_monitor30.jpg",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 13,
+        "name": "Harbeth p3es2",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/hojtalere/harbeth_p3es2.jpg",
+        "categoryID": 15,
+        "stock": 9
+    },
+    {
+        "id": 14,
+        "name": "Creek a50I",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/int_forstaerkere/creek_a50I.jpg",
+        "categoryID": 85,
+        "stock": 9
+    },
+    {
+        "id": 16,
+        "name": "Creek Classic5350SE",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/int_forstaerkere/creek_classic5350SE.jpg",
+        "categoryID": 85,
+        "stock": 9
+    },
+    {
+        "id": 17,
+        "name": "Creek Destinyamp",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/int_forstaerkere/creek_destinyamp.jpg",
+        "categoryID": 85,
+        "stock": 9
+    },
+    {
+        "id": 19,
+        "name": "Manley snapper",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/int_forstaerkere/manley_snapper.jpg",
+        "categoryID": 85,
+        "stock": 9
+    },
+    {
+        "id": 20,
+        "name": "Manley Stingray",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/int_forstaerkere/Manley_Stingray.jpg",
+        "categoryID": 85,
+        "stock": 9
+    },
+    {
+        "id": 21,
+        "name": "Pro-ject Debut 3 bl",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
+        "categoryID": 97,
+        "stock": 9
+    },
+    {
+        "id": 22,
+        "name": "Pro-ject Debut III red 1",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg",
+        "categoryID": 97,
+        "stock": 9
+    },
+    {
+        "id": 23,
+        "name": "Pro-ject Debut III yellow 1",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+        "categoryID": 97,
+        "stock": 9
+    },
+    {
+        "id": 24,
+        "name": "Pro-ject rpm 5",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm_5.jpg",
+        "categoryID": 97,
+        "stock": 9
+    },
+    {
+        "id": 25,
+        "name": "Pro-ject rpm 10",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm_10.jpg",
+        "categoryID": 97,
+        "stock": 9
+    },
+    {
+        "id": 26,
+        "name": "Jolida JD102b",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD102b.jpg",
+        "categoryID": 32,
+        "stock": 9
+    },
+    {
+        "id": 27,
+        "name": "Jolida JD202a",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD202a.jpg",
+        "categoryID": 32,
+        "stock": 9
+    },
+    {
+        "id": 28,
+        "name": "Jolida JD300b",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD300b.jpg",
+        "categoryID": 32,
+        "stock": 9
+    },
+    {
+        "id": 29,
+        "name": "Jolida JD302b",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD302b.jpg",
+        "categoryID": 32,
+        "stock": 9
+    },
+    {
+        "id": 30,
+        "name": "Jolida JD502b",
+        "price": 520,
+        "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD502b.jpg",
+        "categoryID": 32,
+        "stock": 9
     }
 ]
