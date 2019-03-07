@@ -100,6 +100,10 @@
   display: block;
 }
 .shopfront__categorylist a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -111,6 +115,28 @@
   color: #ffffff;
 }
 
+.shop--solid {
+  background-color: #A39161;
+}
+.shop--solid a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.shop--solid div {
+  background-color: #685225;
+  padding: 0.7em 1em;
+}
+
+@media (min-width: 650px) {
+  .shopfront__categorylist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60%;
+  }
+}
 .showroombanner {
   width: 100%;
 }
