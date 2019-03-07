@@ -1,5 +1,6 @@
 @import "brands.scss";
 @import "shopfront.scss";
+@import "shop.scss";
 @import "index.scss";
 
 body{
@@ -27,6 +28,14 @@ body{
     border: none;
     padding: .3em .5em;
     border-radius: .2em;
+}
+
+.btn--brownish{
+    border-radius: 0;
+    padding: .5em 1em;
+    @extend .btn;
+    background-color: #948356;
+    color: #ffffff;
 }
 
 .btn--blue{
