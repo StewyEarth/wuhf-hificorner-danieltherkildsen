@@ -3,6 +3,9 @@
 @import "shop.scss";
 @import "index.scss";
 
+h1,h2,h3,h4,h5,h6,label,p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     margin: 0;
     background-color: #111111;
@@ -17,6 +20,9 @@ body{
 .text--uppercase{
     text-transform: uppercase;
 }
+.text--brownish{
+    color: #A39161;
+}
 
 .link{
     text-decoration: none;
@@ -28,6 +34,21 @@ body{
 .link--white:hover{
     color: #a39161;
 }
+.link--black{
+    @extend .link;
+    color: black;
+    &:hover{
+        color: #a39161;   
+    }
+}
+.link--brownish{
+    @extend .link;
+    color: #a39161;
+    &:hover{
+        color: #706c61;;   
+    }
+}
+
 .link--active{
     @extend .link;
     color: #a39161;
