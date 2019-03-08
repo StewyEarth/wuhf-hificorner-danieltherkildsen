@@ -25,10 +25,10 @@
 .shopsite {
   background-color: #ffffff;
   margin: 0 auto;
-  max-width: 1920px;
-  padding: 2em 1em;
+  max-width: 80%;
+  padding: 2em;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 1em;
 }
 
