@@ -7,6 +7,17 @@ body{
     margin: 0;
     background-color: #111111;
 }
+.body--white{
+    background-color: #fff;
+}
+.body--black{
+    background-color: black;
+}
+
+.text--uppercase{
+    text-transform: uppercase;
+}
+
 .link{
     text-decoration: none;
 }
