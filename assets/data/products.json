@@ -5,6 +5,7 @@
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/creek_classic.jpg",
         "categoryID": 842,
+        "manufacturerID": 1,
         "stock": 0
     },
     {
@@ -13,6 +14,7 @@
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/exposure_2010S.jpg",
         "categoryID": 842,
+        "manufacturerID": 3,
         "stock": 5
     },
     {
@@ -21,6 +23,7 @@
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/parasound_d200.jpg",
         "categoryID": 842,
+        "manufacturerID": 4,
         "stock": 5
     },
     {
@@ -30,6 +33,7 @@
         "saleprice": 720,
         "picture": "assets/img/produktbilleder/dvdafspillere/parasound_halod3.jpg",
         "categoryID": 842,
+        "manufacturerID": 4,
         "stock": 0
     },
     {
@@ -38,6 +42,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_Destiny_CD.jpg",
         "categoryID": 2352,
+        "manufacturerID": 1,
         "stock": 0
     },
     {
@@ -46,6 +51,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_evo_cd.jpg",
         "categoryID": 2352,
+        "manufacturerID": 1,
         "stock": 2
     },
     {
@@ -54,6 +60,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_classic_cd.jpg",
         "categoryID": 2352,
+        "manufacturerID": 1,
         "stock": 7
     },
     {
@@ -62,6 +69,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/Exp_2010S_CD.gif",
         "categoryID": 2352,
+        "manufacturerID": 2,
         "stock": 9
     },
     {
@@ -70,6 +78,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/effektforstaerkere/manley_mahi.jpg",
         "categoryID": 724,
+        "manufacturerID": 5,
         "stock": 9
     },
     {
@@ -78,6 +87,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/effektforstaerkere/manley_snapper.jpg",
         "categoryID": 724,
+        "manufacturerID": 5,
         "stock": 9
     },
     {
@@ -86,6 +96,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/effektforstaerkere/parasound_haloa23.jpg",
         "categoryID": 724,
+        "manufacturerID": 4,
         "stock": 9
     },
     {
@@ -94,6 +105,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/effektforstaerkere/manley_neoclassic300b.jpg",
         "categoryID": 724,
+        "manufacturerID": 5,
         "stock": 9
     },
     {
@@ -102,6 +114,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
         "categoryID": 666,
+        "manufacturerID": 1,
         "stock": 9
     },
     {
@@ -110,22 +123,25 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/forforstaerkere/parasound_classic7100.jpg",
         "categoryID": 666,
+        "manufacturerID": 4,
         "stock": 9
     },
     {
         "id": 7,
-        "name": "parasound halo p3",
+        "name": "Parasound halo p3",
         "price": 520,
         "picture": "assets/img/produktbilleder/forforstaerkere/parasound_halop3.jpg",
         "categoryID": 666,
+        "manufacturerID": 4,
         "stock": 9
     },
     {
         "id": 8,
-        "name": "Project Prebox",
+        "name": "Pro_ject Prebox",
         "price": 520,
         "picture": "assets/img/produktbilleder/forforstaerkere/Project_prebox.jpg",
         "categoryID": 666,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -134,6 +150,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/boesendorfer_vcs_wall.gif",
         "categoryID": 15,
+        "manufacturerID": 7,
         "stock": 9
     },
     {
@@ -142,6 +159,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
         "categoryID": 15,
+        "manufacturerID": 8,
         "stock": 9
     },
     {
@@ -150,6 +168,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
         "categoryID": 15,
+        "manufacturerID": 8,
         "stock": 9
     },
     {
@@ -158,6 +177,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/harbeth_hl7es2.jpg",
         "categoryID": 15,
+        "manufacturerID": 9,
         "stock": 9
     },
     {
@@ -166,6 +186,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/harbeth_monitor30.jpg",
         "categoryID": 15,
+        "manufacturerID": 9,
         "stock": 9
     },
     {
@@ -174,6 +195,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/harbeth_p3es2.jpg",
         "categoryID": 15,
+        "manufacturerID": 9,
         "stock": 9
     },
     {
@@ -182,6 +204,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/int_forstaerkere/creek_a50I.jpg",
         "categoryID": 85,
+        "manufacturerID": 1,
         "stock": 9
     },
     {
@@ -190,6 +213,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/int_forstaerkere/creek_classic5350SE.jpg",
         "categoryID": 85,
+        "manufacturerID": 1,
         "stock": 9
     },
     {
@@ -198,6 +222,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/int_forstaerkere/creek_destinyamp.jpg",
         "categoryID": 85,
+        "manufacturerID": 1,
         "stock": 9
     },
     {
@@ -206,6 +231,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/int_forstaerkere/manley_snapper.jpg",
         "categoryID": 85,
+        "manufacturerID": 5,
         "stock": 9
     },
     {
@@ -214,6 +240,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/int_forstaerkere/Manley_Stingray.jpg",
         "categoryID": 85,
+        "manufacturerID": 5,
         "stock": 9
     },
     {
@@ -222,6 +249,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_3_bl.jpg",
         "categoryID": 97,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -230,6 +258,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_III_red_1.jpg",
         "categoryID": 97,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -238,6 +267,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
         "categoryID": 97,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -246,6 +276,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm_5.jpg",
         "categoryID": 97,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -254,6 +285,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm10.jpg",
         "categoryID": 97,
+        "manufacturerID": 10,
         "stock": 9
     },
     {
@@ -262,6 +294,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD102b.jpg",
         "categoryID": 32,
+        "manufacturerID": 11,
         "stock": 9
     },
     {
@@ -270,6 +303,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD202a.jpg",
         "categoryID": 32,
+        "manufacturerID": 11,
         "stock": 9
     },
     {
@@ -278,6 +312,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD300b.jpg",
         "categoryID": 32,
+        "manufacturerID": 11,
         "stock": 9
     },
     {
@@ -286,6 +321,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD302b.jpg",
         "categoryID": 32,
+        "manufacturerID": 11,
         "stock": 9
     },
     {
@@ -294,6 +330,7 @@
         "price": 520,
         "picture": "assets/img/produktbilleder/roer_forstaerkere/jolida_JD502b.jpg",
         "categoryID": 32,
+        "manufacturerID": 11,
         "stock": 9
     }
 ]

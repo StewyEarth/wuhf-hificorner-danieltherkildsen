@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     let categoryArray = [];
     let productArray = [];
+    let manufacturerArray = [];
     let fetchesDone = 0;
-    let fetchCount = 2;
+    let fetchCount = 3;
 
     let urlParams = new URLSearchParams(window.location.search);
     let categorySort = urlParams.get("category");
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let bodyElem = document.querySelector("body");
     let productlistElem = document.querySelector(".productlist");
     let categorylistElem = document.querySelector(".categorylist");
+    let manufacturerListElem = document.querySelector(".manufacturerlist");
     let itemCountElem = document.querySelector(".sortingbar__itemsshown");
     let middleTitleElem = document.querySelector(".shop-middle__title");
     let breadcrumbsCurrentElem = document.querySelector(".breadcrumbs__currentplace");
@@ -32,11 +34,18 @@ document.addEventListener("DOMContentLoaded", () => {
             checkFetches();
         });
 
+    fetch('assets/data/manufacturers.json')
+        .then((response) => { return response.json() })
+        .then((data) => {
+            manufacturerArray = data;
+            checkFetches();
+        });
+
     function checkFetches() {
         fetchesDone++
         if (fetchesDone == fetchCount) {
             console.log(categoryArray);
-            updateCaregories();
+            updateCaregoriesAndManufactures();
             if (categorySort != null) {
                 updateProducts(categorySort);
             } else if (manufacturerSort != null) {
@@ -69,6 +78,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
 
+        manufacturerArray.forEach(manufacturer =>{
+            if (manufacturer.id == sorting){
+                middleTitleElem.textContent = manufacturer.name;
+                breadcrumbsCurrentElem.textContent = manufacturer.name;
+            }
+        });
 
         productArray.forEach(product => {
             if (product.categoryID == sorting || product.manufacturerID == sorting) {
@@ -97,7 +112,8 @@ document.addEventListener("DOMContentLoaded", () => {
         productImageContainer.appendChild(productImage);
 
         let productName = document.createElement("a");
-        productName.classList.add("product__name");
+        productName.classList.add("product__name", "link--black");
+        productName.setAttribute("href","#")
         let productNameText = document.createTextNode(product.name);
         productName.appendChild(productNameText);
 
@@ -136,10 +152,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         productlistElem.appendChild(productdiv)
     }
-    function updateCaregories() {
+    function updateCaregoriesAndManufactures() {
         categorylistElem.innerHTML = "";
         categoryArray.forEach(category => {
             categorylistElem.innerHTML += `<li><a href="?category=${category.id}">${category.name}</a></li>`;
+        })
+        manufacturerListElem.innerHTML = "";
+        manufacturerArray.forEach(manufacturer => {
+            manufacturerListElem.innerHTML += `<li><a class="link--black" href="?manufacturer=${manufacturer.id}">${manufacturer.name}</a></li>`;
         })
     }
 

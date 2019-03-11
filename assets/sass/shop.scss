@@ -165,8 +165,6 @@
         }
     }
     &__name{
-        color: black;
-        text-decoration: none;
         text-align: center;
     }
     &__pricebox{
@@ -180,11 +178,9 @@
     &__price{
         color: #A39161;
     }
-    &__cartBtn{
-    }
     
 }
-.manufacturerlist{
+.manufacturers{
     h1{
         font-size: .9rem;
     }
