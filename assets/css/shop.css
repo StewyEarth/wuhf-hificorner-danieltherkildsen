@@ -179,15 +179,16 @@
 .product__price {
   color: #A39161;
 }
-.manufacturerlist h1 {
+
+.manufacturers h1 {
   font-size: 0.9rem;
 }
-.manufacturerlist ul {
+.manufacturers ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.manufacturerlist ul li {
+.manufacturers ul li {
   text-transform: uppercase;
   margin: 0.5em 0 0.5em 0.5em;
   font-size: 0.9rem;

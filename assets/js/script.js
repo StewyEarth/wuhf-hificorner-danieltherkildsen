@@ -5,12 +5,8 @@ document.addEventListener("DOMContentLoaded",function(){
     var slideIndex = 0;
     var slideSpeed = 5000;
 
-    slides.forEach((ignore, index) => {
-        let element = '<input type="radio" name="changedots" value="' + index + '">';
-    });
     function showSlide(i){
         slides.forEach(slide => {
-            // slide.style.display = "none";
             slide.style.opacity = 0;
             slide.style.pointerEvents = "none";
         });
