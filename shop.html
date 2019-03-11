@@ -11,7 +11,10 @@
     <title>Hi-Fi Corner</title>
 </head>
 
-<body class="body--black">
+<body class="body--black body--overflowhidden">
+    <div class="loader">
+        <img class="loader__image pulse" src="assets/img/logo-white.svg" alt="">
+    </div>
     <header class="fpheader header">
         <div class="fpheader-headertop">
             <a href="index.html"><img src="assets/img/logo-white.svg" alt="Logo" class="fpheader-headertop__logo"></a>
@@ -36,14 +39,11 @@
     <main class="shopsite">
         <div class="breadcrumbs">
             <a href="index.html">Home</a>
-            <p>Amplifiers</p>
+            <p class="breadcrumbs__currentplace">Amplifiers</p>
         </div>
         <article class="shop-sorting">
             <div class="shopby shopby-category">
-                <ul>
-                    <li><a href="?category=295">Amplifiers</a></li>
-                    <li><a href="">Integrated Amplifiers</a></li>
-                </ul>
+                <ul class="categorylist"></ul>
             </div>
             <div class="shopby shopby-price">
                 <h1 class="text--uppercase">Shop By</h1>
@@ -116,9 +116,9 @@
                     <a href="" class="product__name">Exp 2010S CD</a>
                     <div class="product__pricebox">
                         <p class="product__oldprice">£429.00</p>
-                        <p class="product__newprice">£329.00</p>
+                        <p class="product__price">£329.00</p>
                     </div>
-                    <button class="btn--brownish">ADD TO CART</button>
+                    <button class="btn--brownish product__cartBtn">ADD TO CART</button>
                 </div>
             </article>
         </article>
@@ -156,19 +156,15 @@
         <div>
             <img class="paymentmethods" src="assets/img/SMALL_LOGOS.png" alt="Payment Methods">
             <ul class="footer__sociallist">
-                <li class="footer__social"><a href="https://www.facebook.com/HiFiCorner" target="_blank"
-                        class="fab fa-facebook-f"></article>
-                </li>
-                <li class="footer__social"><a href="https://www.youtube.com/channel/UCY21Dx3ibHem-kL3G0hmOmQ"
-                        target="_blank" class="fab fa-youtube"></a></li>
-                <li class="footer__social"><a href="https://twitter.com/hifi_corner" target="_blank"
-                        class="fab fa-twitter"></a></li>
-                <li class="footer__social"><a href="https://www.instagram.com/hifi_corner/" target="_blank"
-                        class="fab fa-instagram"></a></li>
+                    <li class="footer__social"><a href="https://www.facebook.com/HiFiCorner" target="_blank" class="fab fa-facebook-f"></a></li>
+                    <li class="footer__social"><a href="https://www.youtube.com/channel/UCY21Dx3ibHem-kL3G0hmOmQ" target="_blank" class="fab fa-youtube"></a></li>
+                    <li class="footer__social"><a href="https://twitter.com/hifi_corner" target="_blank" class="fab fa-twitter"></a></li>
+                    <li class="footer__social"><a href="https://www.instagram.com/hifi_corner/" target="_blank" class="fab fa-instagram"></a></li>
             </ul>
         </div>
     </footer>
     <script src="assets/js/shared.js"></script>
+    <script src="assets/js/shop.js"></script>
 </body>
 
 </html>

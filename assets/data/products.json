@@ -5,7 +5,7 @@
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/creek_classic.jpg",
         "categoryID": 842,
-        "stock": 5
+        "stock": 0
     },
     {
         "id": 18,
@@ -26,10 +26,11 @@
     {
         "id": 187,
         "name": "Parasound Halod3",
-        "price": 804,
+        "price": 900,
+        "saleprice": 720,
         "picture": "assets/img/produktbilleder/dvdafspillere/parasound_halod3.jpg",
         "categoryID": 842,
-        "stock": 5
+        "stock": 0
     },
     {
         "id": 200,
@@ -251,7 +252,7 @@
         "id": 25,
         "name": "Pro-ject rpm 10",
         "price": 520,
-        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm_10.jpg",
+        "picture": "assets/img/produktbilleder/pladespillere/Pro_ject_rpm10.jpg",
         "categoryID": 97,
         "stock": 9
     },
