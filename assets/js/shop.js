@@ -112,7 +112,8 @@ document.addEventListener("DOMContentLoaded", () => {
         productImageContainer.appendChild(productImage);
 
         let productName = document.createElement("a");
-        productName.classList.add("product__name");
+        productName.classList.add("product__name", "link--black");
+        productName.setAttribute("href","#")
         let productNameText = document.createTextNode(product.name);
         productName.appendChild(productNameText);
 

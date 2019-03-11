@@ -85,12 +85,20 @@ body{
 .headertop__righticons{
     display: flex;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     .fa-phone{
         display: none;
     }
     a{
         margin-right: 1em;
+        display: flex;
+        align-items: flex-end;
+    }
+    div{
+        font-weight: 400;
+        margin-left: .5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .9rem;
     }
 }
 
@@ -127,6 +135,18 @@ body{
     justify-content: center;
     align-items: center;
     margin: 7em 0 0 0;
+}
+.headertop__searchbox{
+    margin-right: 1.8rem;
+    display: flex;
+    input{
+        border:none;
+        padding: .5em;
+    }
+    button{
+        border: none;
+        background-color: white;
+    }
 }
 
 @media(min-width:650px){
