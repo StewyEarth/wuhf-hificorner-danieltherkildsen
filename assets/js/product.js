@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if(product.description != null){
                     productDescription.textContent = product.description;
                 }else{
-                    productDescription.textContent = "";
+                    productDescription.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis tortor ac diam lacinia, vitae imperdiet felis mattis. Suspendisse vel mi quis dui consectetur placerat. Aenean ipsum neque, tincidunt et libero quis, rutrum interdum lectus. Aliquam at urna diam.";
                 }
                 //Breadcrumb change
                 categoryArray.forEach(category =>{
