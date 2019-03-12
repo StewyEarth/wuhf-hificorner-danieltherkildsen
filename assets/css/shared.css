@@ -381,15 +381,16 @@
 .product-page .productbox {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
 }
-.product-page .productgallery__bigpicture {
+.product-page .productgallery__bigpicturecontainer {
   border: 1px #EDEDED solid;
   box-sizing: border-box;
   width: 100%;
   height: 300px;
   padding: 1em;
 }
-.product-page .productgallery__bigpicture img {
+.product-page .productgallery__bigpicturecontainer img {
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -413,6 +414,23 @@
 }
 .product-page .moreviews {
   font-size: 1.3rem;
+}
+.product-page .productinfo__seemoreandprice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-page .productinfo__pricebox {
+  display: flex;
+  align-items: flex-end;
+}
+.product-page .productinfo__oldprice {
+  font-size: 1rem;
+  margin: 0 1rem 0 0;
+}
+.product-page .productinfo__price {
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .showroombanner {

@@ -2,6 +2,7 @@
     {
         "id": 15,
         "name": "Creek Classic",
+        "description":"The latest incarnation of Creek's mid-price CD player design is an evolution of the tried and trusted CD50Mk2. Adhering nicely to the 'if it ain't broke, don't fix it' school of design, the Classic incorporates a few choice modifications over its predecessor in order to keep things competitive.",
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/creek_classic.jpg",
         "categoryID": 842,
@@ -11,6 +12,7 @@
     {
         "id": 18,
         "name": "Exposure 2010S",
+        "description": "This is a positively magnificent little amp. Its tunefulness and timing are beyond reproach, and, among other things, it's probably one of the most transparent amplification products I've ever heard at any price. Forget tubes vs transistors, domestic vs imported, and all the other things we reviewers like to blather about: None of that means a great deal in the face of a product such as this, because the Exposure 2010S is a great amp",
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/exposure_2010S.jpg",
         "categoryID": 842,
@@ -20,6 +22,7 @@
     {
         "id": 188,
         "name": "Parasound D200",
+        "description":"Player D200 - a fresh 'neoclassical' interpretation of traditional Parasound electronics engineering solutions. The design is in the style of professional audio - tough, laconic, no frills (by the way, using special mounting whales this player can be mounted in a standard rack). The same principles are reviewed and functional D200. Do not even look at this machine any trendy baubles.",
         "price": 804,
         "picture": "assets/img/produktbilleder/dvdafspillere/parasound_d200.jpg",
         "categoryID": 842,
@@ -28,7 +31,8 @@
     },
     {
         "id": 187,
-        "name": "Parasound Halod3",
+        "name": "Parasound Halo D3",
+        "description": "Playing any media stored on Halo D3 informative sound. Bass well outlined and only slightly dryish (for echoing space is just what we need). Bitingly transmitted attack clearly and subtly 'are drawn' all reverberation - especially in instruments with high range.",
         "price": 900,
         "saleprice": 720,
         "picture": "assets/img/produktbilleder/dvdafspillere/parasound_halod3.jpg",
@@ -39,6 +43,7 @@
     {
         "id": 200,
         "name": "Creek Destiny CD",
+        "description":"The Destiny 2 CD Player is Creek’s latest high-end model and represents a significant improvement over the original, highly respected, Destiny model. It uses all the sound optimisation techniques and components collected by Mike Creek and his team of analogue and digital electronics engineers during their many years in the hi-fi industry.",
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_Destiny_CD.jpg",
         "categoryID": 2352,
@@ -48,6 +53,7 @@
     {
         "id": 325,
         "name": "Creek Evo CD",
+        "description":"The Evo range is Creek's latest addition and has been available for just a few months. When we first reviewed this amplifier, with its partnering CD player we commented that Creek's no-frills reputation hardly fits with the super-smart appearance of Evo.",
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_evo_cd.jpg",
         "categoryID": 2352,
@@ -57,6 +63,7 @@
     {
         "id": 52,
         "name": "Creek Classic CD",
+        "description":"The latest incarnation of Creek's mid-price CD player design is an evolution of the tried and trusted CD50Mk2. Adhering nicely to the 'if it ain't broke, don't fix it' school of design, the Classic incorporates a few choice modifications over its predecessor in order to keep things competitive.",
         "price": 520,
         "picture": "assets/img/produktbilleder/cd_afspillere/creek_classic_cd.jpg",
         "categoryID": 2352,
@@ -155,15 +162,6 @@
     },
     {
         "id": 10,
-        "name": "Epos M5",
-        "price": 520,
-        "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
-        "categoryID": 15,
-        "manufacturerID": 8,
-        "stock": 9
-    },
-    {
-        "id": 11,
         "name": "Epos M5",
         "price": 520,
         "picture": "assets/img/produktbilleder/hojtalere/epos_m5.gif",
