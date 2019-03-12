@@ -303,8 +303,6 @@
   display: block;
 }
 .product__name {
-  color: black;
-  text-decoration: none;
   text-align: center;
 }
 .product__pricebox {
