@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"product.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/product.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;;AAEJ;EACI;EACA;;;AAIA;EACI;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;;AAGR;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AAIZ;EACI","file":"product.css"}

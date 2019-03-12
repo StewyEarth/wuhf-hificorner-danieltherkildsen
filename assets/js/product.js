@@ -7,16 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let urlParams = new URLSearchParams(window.location.search);
     let productUrlID = urlParams.get("category");
-
-    let bodyElem = document.querySelector("body");
-    let productlistElem = document.querySelector(".productlist");
-    let categorylistElem = document.querySelector(".categorylist");
-    let manufacturerListElem = document.querySelector(".manufacturerlist");
-    let itemCountElem = document.querySelector(".sortingbar__itemsshown");
-    let middleTitleElem = document.querySelector(".shop-middle__title");
-    let breadcrumbsCurrentElem = document.querySelector(".breadcrumbs__currentplace");
-    let loaderElem = document.querySelector(".loader");
-    let LogoElem = document.querySelector(".loader__image");
+    console.log(productUrlID);
+    let breadcrumbsElem = document.querySelector(".breadcrumbs");
 
     fetch('assets/data/products.json')
         .then((response) => { return response.json() })
