@@ -206,8 +206,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     productsToShow.push(product);
                 };
             });
-            if (productsToShow.length != 0) {
+            if (productsToShow.length != 0 && productsToShow.length >= 5) {
                 for (let counter = 0; counter < 5; counter++) {
+                    searchResultListElem.innerHTML += `<li class="singleitem"><a href="product.html?id=${productsToShow[counter].id}"><img src="${productsToShow[counter].picture}" alt="product image"><div><p class="text--brownish searchitem__name">${productsToShow[counter].name}</p><p class="text--gray searchitem__price">£${productsToShow[counter].price}</p></div></a></li>`
+                }
+            } else if (productsToShow.length != 0 && productsToShow.length < 5) {
+                for (let counter = 0; counter < productsToShow.length; counter++) {
                     searchResultListElem.innerHTML += `<li class="singleitem"><a href="product.html?id=${productsToShow[counter].id}"><img src="${productsToShow[counter].picture}" alt="product image"><div><p class="text--brownish searchitem__name">${productsToShow[counter].name}</p><p class="text--gray searchitem__price">£${productsToShow[counter].price}</p></div></a></li>`
                 }
             }
