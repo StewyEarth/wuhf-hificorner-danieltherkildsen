@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let productDescription = document.querySelector(".productinfo__description");
     let productSeeotherElem = document.querySelector(".productinfo__seeother");
     let searchFormElem = document.querySelector(".headertop__searchbox");
+    let searchResultListElem = document.querySelector(".searchresults");
 
     fetch('assets/data/products.json')
         .then((response) => { return response.json() })
@@ -56,6 +57,30 @@ document.addEventListener("DOMContentLoaded", () => {
         }else{
             searchFormElem[0].style.borderColor = "red"
             searchFormElem[1].style.borderColor = "red"
+        }
+    });
+    searchFormElem.addEventListener('keyup', (event) => {
+        let productsToShow = [];
+        searchResultListElem.innerHTML = "";
+        let searchTerm = searchFormElem[0].value.toLowerCase();
+        if (searchFormElem[0].value != "") {
+            searchResultListElem.style.display = "block";
+            productArray.forEach(product => {
+                let productname = product.name.toLowerCase();
+                if (productname.indexOf(searchTerm) !== -1) {
+                    productsToShow.push(product);
+                };
+            });
+            if (productsToShow.length != 0) {
+                for (let counter = 0; counter < 5; counter++) {
+                    searchResultListElem.innerHTML += `<li class="singleitem"><a href="product.html?id=${productsToShow[counter].id}"><img src="${productsToShow[counter].picture}" alt="product image"><div><p class="text--brownish searchitem__name">${productsToShow[counter].name}</p><p class="text--gray searchitem__price">£${productsToShow[counter].price}</p></div></a></li>`
+                }
+            }
+            if (productsToShow.length > 5) {
+                searchResultListElem.innerHTML += `<a href="shop.html?search=${searchFormElem[0].value}" class="link--brownish searchitem__showmore">Show more</a>`;
+            }
+        } else {
+            searchResultListElem.style.display = "none";
         }
     });
 
