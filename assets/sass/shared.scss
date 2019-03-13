@@ -141,11 +141,11 @@ body{
     margin-right: 1.8rem;
     display: flex;
     input{
-        border:none;
+        border-width: 1px 0 1px 1px;
         padding: .5em;
     }
     button{
-        border: none;
+        border-width: 1px 1px 1px 0;
         background-color: white;
     }
 }

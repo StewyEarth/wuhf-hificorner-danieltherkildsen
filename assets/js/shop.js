@@ -5,11 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let fetchesDone = 0;
     let fetchCount = 3;
 
+    // Url params
     let urlParams = new URLSearchParams(window.location.search);
     let categorySort = urlParams.get("category");
     let priceSort = urlParams.get("price");
     let manufacturerSort = urlParams.get("manufacturer");
+    let searchUrlTerm = urlParams.get("search");
 
+    //Elements
     let bodyElem = document.querySelector("body");
     let productlistElem = document.querySelector(".productlist");
     let categorylistElem = document.querySelector(".categorylist");
@@ -19,6 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let breadcrumbsCurrentElem = document.querySelector(".breadcrumbs__currentplace");
     let loaderElem = document.querySelector(".loader");
     let LogoElem = document.querySelector(".loader__image");
+    let searchFormElem = document.querySelector(".headertop__searchbox");
+
 
     fetch('assets/data/products.json')
         .then((response) => { return response.json() })
@@ -52,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateProducts(manufacturerSort);
             } else if (priceSort != null) {
                 updateProducts(priceSort);
+            } else if (searchUrlTerm != null) {
+                searchForProducts(searchUrlTerm);
             }else{
                 loaderHide();
                 updateProducts(null);
@@ -59,7 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     function updateProducts(sorting) {
-        console.log(sorting)
         productlistElem.innerHTML = "";
 
         let categoryItems = categorylistElem.querySelectorAll("li a");
@@ -77,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-
         manufacturerArray.forEach(manufacturer =>{
             if (manufacturer.id == sorting){
                 middleTitleElem.textContent = manufacturer.name;
@@ -92,14 +97,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 createProduct(product);
             }
         });
+        updateItemAmount();
+        loaderHide();
+    };
+    function updateItemAmount(){
         let items = document.querySelectorAll(".product");
         itemCountElem.textContent = `${items.length} Item(s)`
         if (items.length == 0) {
             console.log("Ingen items")
             productlistElem.innerHTML = `<h1>No results found</h1>`
         }
-        loaderHide();
-    };
+    }
     function createProduct(product){
         let productdiv = document.createElement("div");
         productdiv.classList.add("product")
@@ -155,11 +163,11 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateCaregoriesAndManufactures() {
         categorylistElem.innerHTML = "";
         categoryArray.forEach(category => {
-            categorylistElem.innerHTML += `<li><a href="?category=${category.id}">${category.name}</a></li>`;
+            categorylistElem.innerHTML += `<li><a href="shop.html?category=${category.id}">${category.name}</a></li>`;
         })
         manufacturerListElem.innerHTML = "";
         manufacturerArray.forEach(manufacturer => {
-            manufacturerListElem.innerHTML += `<li><a class="link--black" href="?manufacturer=${manufacturer.id}">${manufacturer.name}</a></li>`;
+            manufacturerListElem.innerHTML += `<li><a class="link--black" href="shop.html?manufacturer=${manufacturer.id}">${manufacturer.name}</a></li>`;
         })
     }
 
@@ -173,4 +181,32 @@ document.addEventListener("DOMContentLoaded", () => {
         bodyElem.classList.remove("body--overflowhidden")
     }
 
+    searchFormElem.addEventListener('submit', (event) => {
+        event.preventDefault();
+        if(searchFormElem[0].value != ""){
+            document.location = `shop.html?search=${searchFormElem[0].value}`
+        }else{
+            searchFormElem[0].style.borderColor = "red"
+            searchFormElem[1].style.borderColor = "red"
+        }
+    });
+
+    function searchForProducts(searchTerm){
+        productlistElem.innerHTML = "";
+        breadcrumbsCurrentElem.textContent = `Search results for: "${searchTerm}"`;
+        middleTitleElem.textContent = `Search results for: "${searchTerm}"`;
+        productlistElem.classList.add("productlist-search");
+        searchTerm = searchTerm.toLowerCase();
+
+        productArray.forEach(product => {
+            let productname =  product.name.toLowerCase();
+            if(productname.indexOf(searchTerm) !== -1) {
+                createProduct(product)
+            };
+        });
+
+        updateItemAmount();
+        loaderHide();
+    }
 });
+

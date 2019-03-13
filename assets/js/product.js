@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let productPriceElem = document.querySelector(".productinfo__price");
     let productDescription = document.querySelector(".productinfo__description");
     let productSeeotherElem = document.querySelector(".productinfo__seeother");
+    let searchFormElem = document.querySelector(".headertop__searchbox");
 
     fetch('assets/data/products.json')
         .then((response) => { return response.json() })
@@ -48,6 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
             updateProductInfo();
         }
     }
+    searchFormElem.addEventListener('submit', (event) => {
+        event.preventDefault();
+        if(searchFormElem[0].value != ""){
+            document.location = `shop.html?search=${searchFormElem[0].value}`
+        }else{
+            searchFormElem[0].style.borderColor = "red"
+            searchFormElem[1].style.borderColor = "red"
+        }
+    });
 
     function updateProductInfo(){
         productArray.forEach(product => {            
