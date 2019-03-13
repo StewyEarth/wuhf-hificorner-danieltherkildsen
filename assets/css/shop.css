@@ -140,6 +140,10 @@
   grid-gap: 1em;
 }
 
+.productlist-search {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .product {
   display: flex;
   flex-direction: column;

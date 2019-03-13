@@ -279,6 +279,10 @@
   grid-gap: 1em;
 }
 
+.productlist-search {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .product {
   display: flex;
   flex-direction: column;
@@ -766,11 +770,11 @@ body {
   display: flex;
 }
 .headertop__searchbox input {
-  border: none;
+  border-width: 1px 0 1px 1px;
   padding: 0.5em;
 }
 .headertop__searchbox button {
-  border: none;
+  border-width: 1px 1px 1px 0;
   background-color: white;
 }
 

@@ -141,6 +141,9 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1em;
 }
+.productlist-search{
+    grid-template-columns: repeat(3,1fr);
+}
 .product{
     // justify-content: space-between;
     display: flex;
